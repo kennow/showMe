@@ -1,0 +1,87 @@
+/* 初始化设置 */
+.container{
+  background: #fff;
+  font-family: "Microsoft YaHei";
+  font-size: 32rpx;
+  color: #555555;
+}
+.inlineBlock{
+  display: inline-block;
+}
+/* 字体设置 */
+.title{
+  font-size: 38rpx;
+  font-weight: 700;
+  color: black;
+}
+.subTitle{
+  font-size: 32rpx;
+  font-weight: 700;
+  color: black;
+  line-height: 60rpx;
+}
+.colorMain{
+  color: #3c78ff;
+}
+/* flex布局相关 */
+.fxBox{
+  display: flex;
+}
+.fx1{
+  flex: 1;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fxColumn{
+  flex-direction: column;
+}
+
+/* 边距相关 */
+.margin{
+  margin: 20rpx;
+}
+.marginLeft{
+  margin-left: 20rpx;
+}
+.marginTop{
+  margin-top: 20rpx;
+}
+.padding{
+  padding: 20rpx;
+}
+
+/* 边框相关 */
+.border{
+  border: 2rpx solid #cccccc;
+}
+.borderTop{
+  border-top: 2rpx solid #cccccc;
+}
+.borderBottom{
+  border-bottom: 2rpx solid #cccccc;
+}
+.borderLeft{
+  border-left: 2rpx solid #cccccc;
+}
+.borderRight{
+  border-right: 2rpx solid #cccccc;
+}
+
+/* 圆角相关 */
+.smallBorderRadius{
+  border-radius: 10rpx;
+}
+.baseBorderRadius{
+  border-radius: 20rpx;
+}
+.bigBorderRadius{
+  border-radius: 30rpx;
+}
+
+/* 背景色相关 */
+.bgMain{
+  background-color: #f1f1f1;
+}

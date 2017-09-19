@@ -1,0 +1,76 @@
+<view class='container padding'>
+  <view class='title center margin'>
+    <text>李武帝-高级web前端工程师</text>
+  </view>
+
+
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>基本信息</text>
+    <view class='info'>
+      <text class='halfWidth inlineBlock'>姓名：李武帝</text>
+      <text class='halfWidth inlineBlock'>年龄：26岁</text>
+      <text class='halfWidth inlineBlock'>性别：男</text>
+      <text class='halfWidth inlineBlock'>工作年限：4年</text>
+      <text class='halfWidth inlineBlock'>Tel：15910590943</text>
+      <text class='halfWidth inlineBlock'>Email：619882632@qq.com</text>
+      
+    </view>
+  </view>
+  
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>教育背景</text>
+    <view class='info'>
+      <text>2010年9月-2014年6月</text>
+      <text class='marginLeft'>就读于<text class='colorMain'>武汉科技大学</text>计算机科学与技术学院<text class='colorMain'>网络工程</text>专业。</text>   
+    </view>
+  </view>
+
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>工作经历</text>
+    <view class='info'>
+      <view class='fxBox fxColumn bgMain padding'>
+        <text>公司名称:北京图为先科技有限公司</text> 
+        <text>工作时间: 2016.12—至今</text>
+        <text>职位: Web前端工程师</text>
+      </view>
+
+      <view class='fxBox fxColumn bgMain marginTop padding'>
+        <text>公司名称:北京中兴奥德科技有限公司</text> 
+        <text>工作时间: 2014.10—2016.12</text>
+        <text>职位: Web前端工程师</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>专业技能</text>
+    <view class='info fxBox fxColumn'>
+      <text>熟悉前端开发基础知识，包括CSS、HTML、JavaScript</text>
+      <text>精通移动端flex布局，并且在Web开发及Native开发都有实际项目经验。</text>
+      <text>精通HTML5相关技术，对Web开发工程化、结构化、语义化拥有自己的独特见解。</text>
+      <text>精通JavaScript的面向对象编程，对其封装、继承、多态等特性熟练使用;熟练使用JavaScript回调、闭包以及函数式编程;熟悉ES6的类、继承、箭头函数、解构赋值、模板字符串等等一系列常用特性;熟悉TypeScript的类型验证、接又等语法规则。</text>
+      <text>熟悉常用类库如jQuery、zepto、swiper、bootstrap等。熟练使用React框架和熟练使用React-Native进行 IOS / Android 开发。了解Vue、Angular。</text>
+      <text>熟悉React一系列技术栈，包括React.js、webpack、React-Router、Redux、ES6等等。深刻理解其组件化开发、虚拟DOM、属性、状态等机制。</text>
+      <text>熟悉微信开发，自己拥有微信小程序从开发到审核发布，再到迭代升级等一系列流程。同时拥有打通不同平台交互的能力，如 IOS 、Android 应用如何调用小程序、如何针对不同平台的差异性做相应的功能转化等等。</text>
+      <text>了解angular2开发，了解TypeScript，并拥有 angular2 + bootstrap4 的开发经验。深刻理解Angular的数 据的双向绑定机制、它的服务、以及由指令控制的列表渲染和条件渲染等等。</text>
+      <text>了解Vue、Vue-router以及Vue-resource，并且自己写了一个以Node作为后台服务的简单聊天小程序。</text>
+      <text>精通Ajax交互技术、并对Promise、Fetch等都拥有实际的项目经验。并有能力在其原本的API的基础 上进行针对性的封装，便于合作开发。</text>
+      <text>熟练使用Nodejs、Webpack等进行项目构建。</text>
+      <text>熟练使用git进行代码版本管理，熟练使用git中的分支创建、切换、合并等功能。</text>
+    </view>
+  </view>
+
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>项目经验</text>
+    <view class='info'>
+      
+    </view>
+  </view>
+
+  <view class='baseInfo fxBox fxColumn'>
+    <text class='subTitle'>自我评价</text>
+    <view class='info'>
+      
+    </view>
+  </view>
+</view>

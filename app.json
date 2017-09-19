@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/chat/chat",
+        "pages/userCenter/userCenter"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#333",
+        "navigationBarTitleText": "ShowMe",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+      "selectedColor": "#3c78ff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "基本信息",
+          "iconPath": "./assets/icons/distance.png",
+          "selectedIconPath": "./assets/icons/distanced.png"
+        },
+        {
+          "pagePath": "pages/userCenter/userCenter",
+          "text": "其它信息",
+          "iconPath": "./assets/icons/chat.png",
+          "selectedIconPath": "./assets/icons/chatted.png"
+        }
+      ]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+}

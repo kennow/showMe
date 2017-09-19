@@ -1,0 +1,7 @@
+.info{
+  font-size: 28rpx;
+  line-height: 45rpx;
+}
+.halfWidth{
+  width: 50%;
+}
