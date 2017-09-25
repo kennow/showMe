@@ -1,0 +1,29 @@
+/* pages/mySkills/mySkills.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+.skillsBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item{
+  width: 300rpx;
+  height: 70rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  border: 2rpx dashed #3c78ff;
+  color: #3c78ff;
+  border-radius: 25rpx;
+  padding: 15rpx;
+}
+.btn_save{
+  width: 100%;
+  height: 100rpx;
+}
+.btnBox{
+  margin-top: 50rpx;
+}
+
+

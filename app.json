@@ -2,7 +2,19 @@
     "pages": [
         "pages/index/index",
         "pages/chat/chat",
-        "pages/userCenter/userCenter"
+        "pages/userCenter/userCenter",
+        "pages/changeMe/changeMe",
+        "pages/lifePhotos/lifePhotos",
+        "pages/goodArticle/goodArticle",
+        "pages/trip/trip",
+        "pages/spiritualGrowth/spiritualGrowth",
+        "pages/projects/projects",
+        "pages/myGirl/myGirl",
+        "pages/baseInfo/baseInfo",
+        "pages/mySpeak/mySpeak",
+        "pages/jobIntention/jobIntention",
+        "pages/myPosition/myPosition",
+        "pages/mySkills/mySkills"
     ],
     "window": {
         "backgroundTextStyle": "light",

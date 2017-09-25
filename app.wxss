@@ -1,4 +1,9 @@
 /* 初始化设置 */
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
 .container{
   background: #fff;
   font-family: "Microsoft YaHei";
@@ -23,6 +28,9 @@
 .colorMain{
   color: #3c78ff;
 }
+.colorNote{
+  color: #999999;
+}
 /* flex布局相关 */
 .fxBox{
   display: flex;
@@ -38,6 +46,12 @@
 .fxColumn{
   flex-direction: column;
 }
+.spaceAround{
+  justify-content: space-around;
+}
+.alignItems{
+  align-items: center
+}
 
 /* 边距相关 */
 .margin{
@@ -46,11 +60,26 @@
 .marginLeft{
   margin-left: 20rpx;
 }
+.marginRight{
+  margin-right: 20rpx;
+}
 .marginTop{
   margin-top: 20rpx;
 }
+.marginBottom{
+  margin-bottom: 20rpx;
+}
 .padding{
   padding: 20rpx;
+}
+.paddingRight{
+  padding-right: 20rpx;
+}
+.paddingLeft{
+  padding-left: 20rpx;
+}
+.paddingBottom{
+  padding-bottom: 20rpx;
 }
 
 /* 边框相关 */
@@ -85,3 +114,41 @@
 .bgMain{
   background-color: #f1f1f1;
 }
+.bgWhite{
+  background-color: #ffffff;
+}
+
+/* icon和image相关 */
+.iconDefault{
+  width: 35rpx;
+  height: 35rpx;
+}
+
+/* 特殊定制 */
+.item{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 100rpx;
+  align-items: center
+}
+
+.oneLine{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn_save{
+  width: 100%;
+  height: 100rpx;
+}
+.btnBox{
+  margin-top: 50rpx;
+}
+/* 
+布局总结 
+1、在display：flex 的时候，不能直接给一个盒子中的内容一行内强制显示，多余省略。
+
+*/

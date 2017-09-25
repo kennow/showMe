@@ -1,0 +1,33 @@
+<!--pages/changeMe/changeMe.wxml-->
+
+<view class='container bgMain'>
+  <view bindtap='baseInfoEvent' class='marginTop borderBottom padding item'>
+    <text class='fx1'>基本信息</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view class='marginTop borderBottom padding item'>
+    <text class='fx1'>教育背景</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view class='marginTop borderBottom padding item'>
+    <text class='fx1'>工作经历</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view class='marginTop borderBottom padding item'>
+    <text class='fx1'>专业技能</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view class='marginTop borderBottom padding item'>
+    <text class='fx1'>项目经验</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view class='marginTop borderBottom padding item'>
+    <text class='fx1'>自我评价</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+</view>

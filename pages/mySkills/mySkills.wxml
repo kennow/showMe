@@ -1,0 +1,24 @@
+<!--pages/mySkills/mySkills.wxml-->
+<view class='container bgWhite '>
+  <view class='padding bgMain'>
+    <text>我的技能</text>
+  </view>
+  <view class='borderBottom padding skillsBox'>
+    <text class=''>我的技能标签：</text>
+    <text class='item center oneLine' wx:key='{{index}}' wx:for="{{skillsArray}}">{{item}}</text>
+
+    <view class='item center oneLine'>
+      <input 
+      bindinput='inputEvent' 
+      bindblur='blurEvent' 
+      wx:if='{{isAddSkill}}'
+      focus=true
+      type='text' />
+      <text class='padding' bindtap='addSkillEvent' wx:if='{{!isAddSkill}}'>+</text>
+    </view>
+  </view>
+
+  <view class='padding center btnBox'>
+    <button disabled="{{!canSave}}" class='btn_save' type='primary' size='default'>保存</button>
+  </view>
+</view>

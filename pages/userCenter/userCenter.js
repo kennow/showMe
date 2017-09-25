@@ -1,66 +1,53 @@
 // pages/userCenter/userCenter.js
+
+let WxService = require("../../services/wxService.js");
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
   
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
+  data: {},
+  
   onLoad: function (options) {
-  
+    
   },
+  
+  onReady: function () {},
+  
+  onShow: function () {},
+  
+  onHide: function () {},
+  
+  onUnload: function () {},
+  
+  onPullDownRefresh: function () {},
+  
+  onReachBottom: function () {},
+  
+  onShareAppMessage: function () {},
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
+   * @事件部分--页面跳转
    */
-  onReady: function () {
-  
+  changeMeEvent: function() {
+    this.goto(`/pages/changeMe/changeMe`);
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  lifePhotoEvent: function(){
+    this.goto(`/pages/lifePhotos/lifePhotos`);
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  goodArticleEvent: function(){
+    this.goto(`/pages/goodArticle/goodArticle`);
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  spiritualGrowthEvent: function(){
+    this.goto(`/pages/spiritualGrowth/spiritualGrowth`);
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
+  tripEvent: function(){
+    this.goto(`/pages/trip/trip`);
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
+  projectsEvent: function(){
+    this.goto(`/pages/projects/projects`);
   },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  myGirlEvent: function(){
+    this.goto(`/pages/myGirl/myGirl`)
+  },
+  goto: function(page,success,fail){
+    WxService.navigateTo(page, success, fail);
   }
 })

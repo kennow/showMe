@@ -1,4 +1,49 @@
 <!--pages/userCenter/userCenter.wxml-->
-<view class='container'>
 
+<view class='container bgMain'>
+
+  <view bindtap='changeMeEvent' class='marginTop borderBottom padding item'>
+    <text class='fx1'>个人信息修改</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />
+  </view>
+
+  <view bindtap='lifePhotoEvent' class='borderBottom padding item'>
+    <text class='fx1'>生活照</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />    
+  </view>
+
+  <view bindtap='goodArticleEvent' class='borderBottom padding item'>
+    <text class='fx1'>收藏好文</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />    
+  </view>
+
+  <view bindtap='spiritualGrowthEvent' class='borderBottom padding item'>
+    <text class='fx1'>心路历程</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />    
+  </view>
+
+  <view bindtap='tripEvent' class='borderBottom padding item'>
+    <text class='fx1'>旅游</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />    
+  </view>
+
+  <view bindtap='projectsEvent' class='borderBottom padding item marginTop'>
+    <text class='fx1'>项目</text>
+    <image class='iconDefault' src='/assets/icons/more.png' />    
+  </view>
+
+  <view class='borderBottom padding item'>
+    <text class='basewidth'>博客</text>
+    <text class=''>http://my.csdn.net/</text>
+  </view>
+
+  <view class='borderBottom padding item'>
+    <text class='basewidth'>github</text>
+    <text>https://github.com/liwudi</text>
+  </view>
+
+  <!-- <view bindtap='myGirlEvent' class='borderBottom padding item marginTop'>
+    <text class='fx1'>我的女友</text>
+    <image class='iconDefault' src='/assets/icons/more.png' /> 
+  </view> -->
 </view>

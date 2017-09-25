@@ -3,7 +3,7 @@
     <text>李武帝-高级web前端工程师</text>
   </view>
 
-
+  <!-- 基本信息模块 -->
   <view class='baseInfo fxBox fxColumn'>
     <text class='subTitle'>基本信息</text>
     <view class='info'>
@@ -13,38 +13,46 @@
       <text class='halfWidth inlineBlock'>工作年限：4年</text>
       <text class='halfWidth inlineBlock'>Tel：15910590943</text>
       <text class='halfWidth inlineBlock'>Email：619882632@qq.com</text>
-      
+
     </view>
   </view>
-  
+
+
+  <!-- 教育背景模块 -->
   <view class='baseInfo fxBox fxColumn'>
     <text class='subTitle'>教育背景</text>
     <view class='info'>
       <text>2010年9月-2014年6月</text>
-      <text class='marginLeft'>就读于<text class='colorMain'>武汉科技大学</text>计算机科学与技术学院<text class='colorMain'>网络工程</text>专业。</text>   
+      <text class='marginLeft'>就读于<text class='colorMain'>武汉科技大学</text>计算机科学与技术学院<text class='colorMain'>网络工程</text>专业。</text>
     </view>
   </view>
 
+  <!-- 工作经历模块 -->
   <view class='baseInfo fxBox fxColumn'>
     <text class='subTitle'>工作经历</text>
     <view class='info'>
       <view class='fxBox fxColumn bgMain padding'>
-        <text>公司名称:北京图为先科技有限公司</text> 
+        <text>公司名称:北京图为先科技有限公司</text>
         <text>工作时间: 2016.12—至今</text>
         <text>职位: Web前端工程师</text>
       </view>
 
       <view class='fxBox fxColumn bgMain marginTop padding'>
-        <text>公司名称:北京中兴奥德科技有限公司</text> 
+        <text>公司名称:北京中兴奥德科技有限公司</text>
         <text>工作时间: 2014.10—2016.12</text>
         <text>职位: Web前端工程师</text>
       </view>
     </view>
   </view>
 
+
+  <!-- 专业技能模块 -->
   <view class='baseInfo fxBox fxColumn'>
     <text class='subTitle'>专业技能</text>
-    <view class='info fxBox fxColumn'>
+    <view class='info'>
+      <text>HTML、CSS、JavaScript、React.js、React-Native、微信小程序、WebPack、Git、Vue.js、Angular.js等等</text>
+    </view>
+    <view wx:if="{{false}}" class='info fxBox fxColumn'>
       <text class='marginTop'>1、熟悉前端开发基础知识，包括CSS、HTML、JavaScript</text>
       <text class='marginTop'>2、精通移动端flex布局，并且在Web开发及Native开发都有实际项目经验。</text>
       <text class='marginTop'>3、精通HTML5相关技术，对Web开发工程化、结构化、语义化拥有自己的独特见解。</text>
@@ -60,19 +68,40 @@
     </view>
   </view>
 
+
+  <!-- 项目经验模块 -->
   <view class='baseInfo fxBox fxColumn'>
-    <text class='subTitle'>项目经验</text>
+    <text class='subTitle'>项目经验（近期）</text>
     <view class='info'>
-      <view>
-        
+      <view class='fxBox fxColumn'>
+        <text class='marginTop'>项目一：图吧同行（微信小程序）</text>
+        <text>项目介绍：为图吧实现了一个基于群组导航、语音聊天、定位搜索服务的小程序。</text>
+
+        <text class='marginTop'>项目二：解放行司机版 && 车队版 (React-Native）</text>
+        <text>项目介绍：本公司为青岛一汽所做的一个大型的车联网项目，所为司机和车主提供客服、服务预约、货源信息、实时监控、统计分析、线路查询等一系列服务。</text>
+
+        <text class='marginTop'>项目三：萌卡天天作业（React.js）</text>
+        <text>项目介绍：为教师和学生提供作业布置、作业查询、作业卡以及作业上交等服务。</text>
+
+        <text class='marginTop'>项目四：web端地图项目（Vue.js && node）</text>
+        <text>项目介绍：为图吧用户提供一个简洁明了、使用规范的Api示例。</text>
+
+        <text class='marginTop'>项目五：新华社采编发(Angular2)</text>
+        <text>项目介绍：为新华社提供一个集信息采集、信息发布等一系列功能的平台。</text>
       </view>
     </view>
   </view>
 
+
+  <!-- 自我评价模块 -->
   <view class='baseInfo fxBox fxColumn'>
     <text class='subTitle'>自我评价</text>
-    <view class='info'>
-      
+    <view class='info fxBox fxColumn'>
+      <text class='marginTop'>1、自信加努力是我人生中最重要的基石，我拥有自信，但是需要努力的配合才能达到更高的人生境 界。</text>
+      <text class='marginTop'>2、我喜欢一句话:我来了，我看见，我征服。我期待看见更多新的东西，特别是能让我感觉震撼的东西。</text>
+      <text class='marginTop'>3、经常喜欢把自己和别人相比，别人能做到的东西，自己根据一定的分析，明白自己的优势和劣势 都有哪些，看看自己能否做到。</text>
+      <text class='marginTop'>4、我记忆力较差，所以我养成了记录的习惯，遇到任何觉得对自己有用的东西就记下来，但是我有较好的理解能力，前端范畴的所有API都有快速学习并应用到项目的能力。</text>
+      <text class='marginTop'>5、我具有一定的理想，我希望我2年后能成为web前端架构师，对未来抱有期待。</text>
     </view>
   </view>
 </view>

@@ -1,0 +1,97 @@
+<!--pages/baseInfo/baseInfo.wxml-->
+<view class='container bgMain marginBottom'>
+  <view class='paddingLeft paddingRight bgWhite marginTop'>
+
+    <view class='borderBottom padding item'>
+      <text class='fx1'>姓名(必填)</text>
+      <input 
+        placeholder='请输入姓名' 
+        bindinput='inputNameEvent' 
+        class='input paddingRight' 
+        type='text' 
+        value='{{name}}' 
+        bindblur='blurNameEvent'
+      />
+      <!-- <image class='iconDefault' src='/assets/icons/more.png' /> -->
+      <view class='iconDefault'></view>    
+    </view>
+
+    <view class='borderBottom padding item'>
+      <text class='fx1'>电话(必填)</text>
+      <input 
+        placeholder='请输入手机' 
+        bindinput='inputPhoneEvent' 
+        class='input paddingRight' 
+        type='text' 
+        value='{{phone}}' 
+        bindblur='blurPhoneEvent'
+      />
+      <!-- <image class='iconDefault' src='/assets/icons/more.png' /> -->
+      <view class='iconDefault'></view>     
+    </view>
+
+    <view class='padding item'>
+      <text class='fx1'>邮箱</text>
+      <input 
+        placeholder='请输入邮箱' 
+        bindinput='inputEmailEvent' 
+        class='input paddingRight' 
+        type='text' 
+        value='{{email}}' 
+        bindblur='blurEmailEvent'
+      />
+      <!-- <image class='iconDefault' src='/assets/icons/more.png' />  -->
+      <view class='iconDefault'></view>    
+    </view>
+
+  </view>
+
+  <view class='paddingLeft paddingRight bgWhite marginTop'>
+
+    <picker mode='date'  start='1900-01-01' bindchange='listenPickerChange'>
+      <view class='borderBottom padding item'>
+        <text class='fx1'>生日</text>
+        <text class='paddingRight'>{{birthDay}}</text>
+        <image class='iconDefault' src='/assets/icons/more.png' />    
+      </view>
+    </picker>
+    
+    <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected">
+      <view class='borderBottom padding item'>
+        <text class='fx1'>性别</text>
+        <text class='paddingRight'>{{array[index]}}</text>
+        <image class='iconDefault' src='/assets/icons/more.png' />    
+      </view>
+    </picker>
+    <view bindtap='mySkillEvent' class='borderBottom padding item'>
+      <text class='fx1'>专业技能</text>
+      <image class='iconDefault' src='/assets/icons/more.png' />    
+    </view>
+    <view bindtap='jobIntentionEvent' class='padding item'>
+      <text class='fx1'>求职意向</text>
+      <image class='iconDefault' src='/assets/icons/more.png' />    
+    </view>
+  </view>
+
+  <view class='paddingLeft paddingRight bgWhite marginTop'>
+    
+
+    <view bindtap='myPositionEvent' class='padding item'>
+      <text class='fx1'>所在地</text>
+      <image class='iconDefault' src='/assets/icons/more.png' />    
+    </view>
+  </view>
+
+  <view class='paddingLeft paddingRight bgWhite marginTop'>
+    <view bindtap='mySpeakEvent' class='padding item'>
+      <text class='fx1'>自我表达</text>
+      <image class='iconDefault' src='/assets/icons/more.png' />    
+    </view>
+  </view>
+
+  <view class='padding center btnBox'>
+    <button class='btn_save' type='primary' size='default'>保存</button>
+  </view>
+  
+</view>
+

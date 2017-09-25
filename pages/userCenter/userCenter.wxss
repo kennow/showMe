@@ -1,1 +1,6 @@
 /* pages/userCenter/userCenter.wxss */
+
+.basewidth{
+  width: 200rpx;
+  display: inline-block;
+}

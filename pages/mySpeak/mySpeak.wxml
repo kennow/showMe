@@ -1,0 +1,19 @@
+<!--pages/mySpeak/mySpeak.wxml-->
+<view class='container bgMain'>
+    <view class='borderBottom padding item marginTop'>
+      <text class='fx1'>兴趣爱好</text>
+      
+      <image class='iconDefault' src='/assets/icons/more.png' />    
+    </view>
+    <view class='bgWhite'>
+      <view class='padding'>自我评价</view>
+      <textarea 
+        class='padding'
+        maxlength='140'
+      />
+    </view>
+
+    <view class='padding center btnBox'>
+      <button class='btn_save' type='primary' size='default'>保存</button>
+    </view>
+</view>

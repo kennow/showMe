@@ -1,0 +1,4 @@
+<!--pages/myGirl/myGirl.wxml-->
+<view class='container center'>
+  <text>正在招募中。。。</text>
+</view>

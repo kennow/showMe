@@ -1,0 +1,34 @@
+/* pages/trip/trip.wxss */
+.img{
+  width: 200rpx;
+  height: 250rpx;
+}
+.icon{
+  width: 50rpx;
+  height: 50rpx;
+}
+.icon2{
+  width: 40rpx;
+  height: 40rpx;
+}
+.icon3{
+  width: 60rpx;
+  height: 60rpx;
+}
+.infoItem{
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+}
+.inputBox{
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+}
+.commentsImage{
+  width: 100%;
+  height: 400rpx;
+}

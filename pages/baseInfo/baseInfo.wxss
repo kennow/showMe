@@ -1,0 +1,4 @@
+/* pages/baseInfo/baseInfo.wxss */
+.input{
+  text-align: right;
+}

@@ -1,0 +1,83 @@
+<!--pages/trip/trip.wxml-->
+<view class='container bgMain'>
+  <!-- 这是title -->
+  <view class='padding bgWhite'>
+    <view class='paddingBottom borderBottom'>
+      <text>我的旅游</text>
+    </view>
+    
+    <view class='fxBox marginTop'>
+      <image class='img' src='/assets/images/trip1.jpg'></image>
+      <view class='fx1 padding fxBox fxColumn'>
+        <view class='fxBox infoItem'>
+          <view class='center icon'>
+            <image 
+            class='icon' 
+            src='/assets/icons/watchMaped.png'>
+            </image>
+          </view>
+          <text class='marginLeft fx1'>北京八达岭长城</text>
+        </view>
+        <view class='fxBox infoItem'>
+          <view class='center icon'>
+            <image 
+            class='icon2' 
+            src='/assets/icons/clocked.png'>
+            </image>
+          </view>
+          <text class='marginLeft fx1'>2017.5.12</text>
+        </view>
+        <view class='fx1'>
+
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 这是评论 -->
+  <view class='comments marginTop bgWhite padding'>
+    <view class='commentsNumber marginTop marginBottom'>
+      <text><text class='title colorMain padding'>71</text>条评论</text>
+    </view>
+    <view class='border padding inputBox'>
+      <input type='text' placeholder='我也来说几句...'></input>
+    </view>
+    <view class='padding fxBox'>
+      <view class='fxBox alignItems'>
+        <image class='icon3' src='/assets/icons/comments.png'></image>
+        <text class='marginLeft'>添加图片</text>
+      </view>
+      <view class='fx1'>
+      
+      </view>
+      <view>
+        <button size='mini' type='primary'>发布</button>
+      </view>
+    </view>
+  </view>
+  <!-- 评论列表 -->
+  <view class='marginTop bgWhite padding'>
+    <view class='marginBottom' wx:for='{{commentsList}}'>
+      <view class='fxBox'>
+        <image class='avatar baseBorderRadius' src='{{item.avatarUrl}}'></image>
+        <view class='fxBox fxColumn fx1 marginLeft spaceAround'>
+          <text>{{item.nickName}}</text>
+          <text class='colorNote'>{{item.commentTime}}</text>
+        </view>
+        <view class='fxBox alignItems'>
+          <image class='icon3 marginRight' src='/assets/icons/comments.png'></image>
+          <text>回复</text>
+        </view>
+      </view>
+      <view class='marginTop'>
+        <text>{{commentContent}}</text>
+      </view>
+      <view 
+      wx:for="{{item.commentImageList}}" 
+      wx:for-item="every" 
+      wx:for-index="idx"
+      class='marginTop'>
+        <image class='commentsImage' src="{{every.imgSrc}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
